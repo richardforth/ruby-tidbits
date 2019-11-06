@@ -1,0 +1,35 @@
+Mac
+
+i. See what the default is (mac comes with ruby installed by default - i didnt know this):
+
+$ ruby -v
+... 2.3.7 ...
+
+1. Install Xcode
+
+$ xcode-select --install
+
+2. Make sure to agree to the license
+
+$ sudo xcodebuild -license
+
+3. Install version 2.3.3
+
+$ rvm install 2.3.3
+
+4. Make 2.3.3 the default
+
+$ rvm --default use 2.3.3
+
+5. reboot
+
+6. check 2.3.3 is now the default (was 2.3.7)
+
+$ ruby -v
+... 2.3.3p222  ...
+
+(I didnt need to do this, it seemed to nuke 2.3.7 which was installed by default.)
+
+7. Generate the docs
+
+$ rvm docs generate-ri
