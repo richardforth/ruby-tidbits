@@ -1,2 +1,2 @@
-# First oneliner
-5.times { print "Hello World"}
+# Snippet 1:  First Ruby Code Snip
+5.times { print "Hello There!" }
