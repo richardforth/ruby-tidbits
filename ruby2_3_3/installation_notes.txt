@@ -33,3 +33,28 @@ $ ruby -v
 7. Generate the docs
 
 $ rvm docs generate-ri
+
+8. install atom editor
+
+https://atom.io
+
+9. Install theme and custom plugin
+
+Atom Runner
+In the welcome guide, click "Install a package"
+
+(or later > file > settings > +install)
+
+Click Packages next to search box
+
+search for atom-runner
+click install
+
+
+Custom Theme
+
+switch to themes next to search box
+search for monokai-light
+click install
+
+to use you may have to close and re-open atom
