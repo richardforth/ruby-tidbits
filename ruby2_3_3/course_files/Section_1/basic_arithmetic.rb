@@ -24,6 +24,6 @@ p 14 % 4
 p 15 % 4
 p 16 % 4
 
-# caution  when dealing with floats less tham 1
+# caution  when dealing with floats less than 1
 #p .5 / 2 # Error
 p 0.5 / 2 # fix: place a zero infront of the decimal point
