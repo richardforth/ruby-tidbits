@@ -15,3 +15,6 @@ puts age + 5
 puts
 puts "My name is " + name + " " + lastname + "."
 #puts "My name is " + name + " " + lastname + ", and I am " + age + "years old."
+
+# something I learned so I thought I'd come back to this
+puts "My name is #{name} #{lastname} and I am #{age} years old."
