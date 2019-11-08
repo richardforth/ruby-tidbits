@@ -1,0 +1,2 @@
+# this is a screengrab from irb (interactive ruby) it is NOT an executable ruby script.
+# gets and chomp methods
