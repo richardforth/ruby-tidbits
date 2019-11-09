@@ -1,2 +1,24 @@
 # this is a screengrab from irb (interactive ruby) it is NOT an executable ruby script.
 # gets and chomp methods
+
+C:\>irb
+irb(main):001:0> gets
+Richard
+=> "Richard\n"
+irb(main):002:0> name = gets
+Richard
+=> "Richard\n"
+irb(main):003:0> puts "Thank you for giving your name, #{name}. See you later!"
+Thank you for giving your name, Richard
+. See you later!
+=> nil
+irb(main):004:0> gets.chomp
+Richard
+=> "Richard"
+irb(main):005:0> name = gets.chomp
+Richard
+=> "Richard"
+irb(main):006:0> puts "Thank you for giving your name, #{name}. See you later!"
+Thank you for giving your name, Richard. See you later!
+=> nil
+irb(main):007:0>
