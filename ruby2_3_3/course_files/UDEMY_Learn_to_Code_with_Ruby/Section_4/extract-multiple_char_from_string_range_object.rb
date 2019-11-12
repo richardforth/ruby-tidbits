@@ -2,19 +2,27 @@
 # using range objects
 
 story = "Once upon a time in a land far, far away"
-p story[5] # u
-p story[5,4] # upon
-p story.slice(5,4) # upon
+
+# two dots, last char is inclusive
+p story[5..10]
+p story.slice(5..10)
+p story[0..20]
+p story.slice(0..20)
+p story[21..39]
+p story.slice(21..39)
 puts
 
-p story[0] # O
-p story[0,4] # Once
-p story.slice(0,4) # Once
+# three dots, last char is exclusive
+p story[5...10]
+p story.slice(5...10)
+p story[0...20]
+p story.slice(0...20)
+p story[21...39]
+p story.slice(21...39)
 puts
 
-p story[0, story.length]
-p story[10, story.length]
-puts
-
-p story[-7,5]
-p story.slice(-7,5)
+# ranges can extend beyond the limit of the string length no problems
+p story[0..9000]
+p story[0...9000]
+p story.slice(0..9000)
+p story.slice(0...9000)
