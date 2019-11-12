@@ -1,5 +1,5 @@
 # extracting multiple characters from a string
-# using range objects
+# using bracket method
 
 story = "Once upon a time in a land far, far away"
 p story[5] # u
