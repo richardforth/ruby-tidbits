@@ -14,3 +14,16 @@ end
 
 puts even_or_odd(7)
 puts even_or_odd(10)
+
+
+
+## refactorign exercise ###
+pokemon = "Pikachu"
+
+if pokemon == "Charizard"
+  puts "Fireball!"
+else
+  puts "That is not Charizard!"
+end
+
+puts pokemon == "Charizard" ? "Fireball!": "That is not Charizard!"
