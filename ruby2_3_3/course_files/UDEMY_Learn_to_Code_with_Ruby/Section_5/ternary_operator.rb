@@ -27,3 +27,14 @@ else
 end
 
 puts pokemon == "Charizard" ? "Fireball!": "That is not Charizard!"
+
+
+# ternary operator in a method
+def check_pokemon(pokemon)
+  pokemon == "Charizard" ? "Fireball!": "That is not Charizard!"
+end
+
+p check_pokemon("Pikachu")
+p check_pokemon("Squirtle")
+p check_pokemon("Onyx")
+p check_pokemon("Charizard")
