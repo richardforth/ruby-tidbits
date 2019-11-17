@@ -13,11 +13,11 @@ end
 def calculator(a,b,operation="add")
   #operation(a,b)
   if operation == "add"
-    add(a,b)
+    "The result is #{add(a,b)}"
   elsif operation == "subtract"
-    subtract(a,b)
+    "The result is #{subtract(a,b)}"
   elsif operation == "multiply"
-    multiply(a,b)
+    "The result is #{multiply(a,b)}"
   else
     "Not a valid math operation"
   end
