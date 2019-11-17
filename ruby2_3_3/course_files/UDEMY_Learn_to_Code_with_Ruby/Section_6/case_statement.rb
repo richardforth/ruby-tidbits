@@ -17,3 +17,19 @@ puts rate_my_plate("Yoghurt")
 puts rate_my_plate("Tofu")
 puts rate_my_plate("Steak")
 puts rate_my_plate("Sushi")
+
+def grade_paper(score)
+  case score
+  when 90..100 then "A"
+  when 80..89 then "B"
+  when 70..79 then "C"
+  when 60..69 then "D"
+  else "F"
+  end
+end
+
+p grade_paper(96)
+p grade_paper(87)
+p grade_paper(78)
+p grade_paper(63)
+p grade_paper(57)
