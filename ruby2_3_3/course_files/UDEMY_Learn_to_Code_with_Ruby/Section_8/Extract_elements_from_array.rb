@@ -27,3 +27,28 @@ puts
 p fruits.[](-2) # Grape
 p fruits.[](-3) # Orange
 p fruits.[](-4) # Apple
+puts
+
+p fruits[2, 1]
+p fruits[0, 3]
+p fruits[2, 2]
+puts
+
+p fruits[1..3]
+p fruits[0..2]
+puts
+
+p fruits.values_at(1,3)
+p fruits.values_at(0,2)
+p fruits.values_at(0,1,3)
+p fruits.values_at(0,2,3)
+puts
+
+p fruits.slice(0,1)
+p fruits.slice(1,1)
+p fruits.slice(2,1)
+p fruits.slice(3,1)
+p fruits.slice(0,2)
+p fruits.slice(0,3)
+p fruits.slice(0,4)
+puts
