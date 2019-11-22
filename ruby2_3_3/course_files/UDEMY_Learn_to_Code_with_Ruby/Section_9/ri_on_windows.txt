@@ -1,0 +1,22 @@
+# gem rdoc --all --ri --no-rdoc
+
+REDACTED>gem rdoc --all --ri --no-rdoc
+Parsing documentation for awesome_print-1.8.0
+invalid options: -SNw2
+(invalid options are ignored)
+Parsing documentation for coderay-1.1.2
+Parsing documentation for did_you_mean-1.0.0
+Installing ri documentation for did_you_mean-1.0.0
+Parsing documentation for highline-2.0.3
+Parsing documentation for method_source-0.9.2
+Parsing documentation for minitest-5.8.5
+Installing ri documentation for minitest-5.8.5
+Parsing documentation for net-telnet-0.1.1
+Installing ri documentation for net-telnet-0.1.1
+Parsing documentation for power_assert-0.2.6
+Installing ri documentation for power_assert-0.2.6
+Parsing documentation for pry-0.12.2
+Parsing documentation for rake-10.4.2
+Installing ri documentation for rake-10.4.2
+Parsing documentation for test-unit-3.1.5
+Installing ri documentation for test-unit-3.1.5
