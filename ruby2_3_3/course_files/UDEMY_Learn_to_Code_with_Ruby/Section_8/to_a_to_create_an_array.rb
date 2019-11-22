@@ -6,3 +6,6 @@
 # you can however use ranges with to_a
 letters = ("a".."j").to_a
 p letters
+
+numbers = (1..10).to_a
+p numbers
