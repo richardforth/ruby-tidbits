@@ -1,0 +1,26 @@
+REDACTED>ri String
+String < Object
+
+(from gem awesome_print-1.8.0)
+------------------------------------------------------------------------------
+Copyright (c) 2010-2016 Michael Dvorkin and contributors
+
+Awesome Print is freely distributable under the terms of MIT license. See
+LICENSE file or http://www.opensource.org/licenses/mit-license.php
+------------------------------------------------------------------------------
+(from gem highline-2.0.3)
+------------------------------------------------------------------------------
+HighLine adds #each_line alias to #each when each_line is not available.
+------------------------------------------------------------------------------
+(from gem rake-10.4.2)
+------------------------------------------------------------------------------
+Instance methods:
+
+  ext, pathmap, pathmap_explode, pathmap_partial, pathmap_replace
+
+
+>ri Array
+  Nothing known about Array
+
+>ri String.upcase
+  Nothing known about String.upcase
