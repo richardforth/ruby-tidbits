@@ -24,3 +24,15 @@ Instance methods:
 
 >ri String.upcase
   Nothing known about String.upcase
+
+>ri String.length
+  Nothing known about String.length
+
+>ri Array.shift
+  Nothing known about Array
+
+>ri Array.unshift
+  Nothing known about Array
+
+# Inconclusion, ri on windows SUCKS,
+#  try on linuc or mac?
