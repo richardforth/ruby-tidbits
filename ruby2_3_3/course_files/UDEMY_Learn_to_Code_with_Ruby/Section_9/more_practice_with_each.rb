@@ -67,3 +67,16 @@ puts
 
 # Notice how over the period of these 4 do blocks, the compressed the code from
 # 7 lines in the block to just 1 line!
+
+#=-------------------------------------------------------------------=#
+# making a method to sort and print any array of numbers into odds and
+# evens.
+def print_odds_and_evens(array)
+  evens = []
+  odds = []
+  array.each {|number| number.even? ? evens << number : odds << number }
+  p evens
+  p odds
+end
+
+print_odds_and_evens([1,2,3,5,7,15,16,42])
