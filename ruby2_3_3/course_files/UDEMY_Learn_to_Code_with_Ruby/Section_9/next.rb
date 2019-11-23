@@ -9,5 +9,5 @@ def squares(arr)
   end
 end
 
-numbers = [1,2,3,"Hello",5,6,7]
+numbers = [1,2,3,"Hello",5,6,nil,7,[]]
 squares(numbers)
