@@ -27,3 +27,4 @@ p results
 # easy fix is to remove the puts
 results = [1, 2, 3].map { |number| number ** 2}
 p results
+# [1, 4, 9]
