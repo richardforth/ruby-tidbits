@@ -7,5 +7,7 @@ p [true, true, true, false, true].reverse
 queue = [4, 8, 15, 16, 23, 42]
 p queue
 
+# if you forgot about bang methods, check out
+# Lesson 52 "bang methods" (section 4)
 queue.reverse!
 p queue
