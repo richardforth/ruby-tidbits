@@ -1,5 +1,5 @@
 def evens_and_odds(numbers)
-  numbers.partition { |num| num.even? }
+  numbers.partition { |num| num.odd? }
 end
 
 p evens_and_odds([4, 8, 15, 16, 23, 42])
