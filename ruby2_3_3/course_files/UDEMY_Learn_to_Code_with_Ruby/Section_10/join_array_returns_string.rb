@@ -24,8 +24,8 @@ end
 p custom_join(lipsum_words) # "Loremipsumdolorsitamet"
 p custom_join(lipsum_words, "-") # "Lorem-ipsum-dolor-sit-amet"
 p custom_join(lipsum_words, "_*_") # "Lorem_*_ipsum_*_dolor_*_sit_*_amet"
+p custom_join(lipsum_words, "!---!") == lipsum_words.join("!---!")
 puts
-
 # so mine works, lets see how the instructor solved it...
 def ins_custom_join(array, delimiter = "")
   string = ""
@@ -40,6 +40,7 @@ end
 p ins_custom_join(lipsum_words) # "Loremipsumdolorsitamet"
 p ins_custom_join(lipsum_words, "-") # "Lorem-ipsum-dolor-sit-amet"
 p ins_custom_join(lipsum_words, "_*_") # "Lorem_*_ipsum_*_dolor_*_sit_*_amet"
+p ins_custom_join(lipsum_words, "!---!") == lipsum_words.join("!---!")
 puts
 
 # notes
