@@ -3,3 +3,6 @@
 ipsum = "Lorem ipsum dolor sit amet"
 lipsum = ipsum.split(" ")
 p lipsum
+# perfect!
+
+# ..now begins the lesson...
