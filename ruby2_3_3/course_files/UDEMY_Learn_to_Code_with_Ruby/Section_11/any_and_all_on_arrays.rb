@@ -10,6 +10,7 @@ end
 # bottom line, dont use do...end with any or all
 p [1, 3, 5, 7].any? { |n| n.even? } # false
 p [1, 3, 5, 7].any? { |n| n.odd? } # true
+# works as expected with curly braces...say no more.
 puts
 
 
@@ -40,3 +41,4 @@ p doing_words.all? { |word| word.include?("x") }
 
 # I think theres a bug in the do block using any? or all? predicates....
 # https://www.rubyguides.com/2018/10/any-all-none-one/
+# https://ruby-doc.org/core-2.6.4/Enumerable.html#method-i-any-3F
