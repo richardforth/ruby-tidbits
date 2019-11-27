@@ -8,3 +8,13 @@ p sports.compact
 p sports
 sports.compact!
 p sports
+
+#=----- custom compact method ------=#
+def custom_compact(array)
+  # return the array with nil values removed
+  final = []
+  array.each { |item| final << item unless item == nil}
+  final
+end
+
+custom_compact(sports)
