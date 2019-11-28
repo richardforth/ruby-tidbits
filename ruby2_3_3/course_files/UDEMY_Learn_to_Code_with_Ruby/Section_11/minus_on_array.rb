@@ -8,3 +8,16 @@ fruits = ["apple", "banana", "strawberry"]
 computers = ["apple", "ibm", "linux"]
 
 p fruits - computers # ["banana", "strawberry"]
+puts
+
+#=-------- custom subtraction method ---------=#
+def custom_subtraction(arr1, arr2)
+  final = []
+  arr1.each do |item|
+    final << item unless arr2.include?(item)
+  end
+  final
+end
+
+p custom_subtraction(fruits, computers) # ["banana", "strawberry"]
+p custom_subtraction(fruits, computers) == fruits - computers # true
