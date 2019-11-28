@@ -33,4 +33,4 @@ empty_array = []
 p empty_array
 p empty_array.class
 
-p empty_hash.class == empty_array.class # flase
+p empty_hash.class == empty_array.class # false
