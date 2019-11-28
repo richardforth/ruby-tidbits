@@ -22,3 +22,15 @@ puts
 ages.each do |key,value|
   puts "#{key} is #{value} years old."
 end
+puts
+
+##=------------  lesson begins here ---------------=#
+empty_hash = {}
+p empty_hash
+p empty_hash.class
+
+empty_array = []
+p empty_array
+p empty_array.class
+
+p empty_hash.class == empty_array.class # flase
