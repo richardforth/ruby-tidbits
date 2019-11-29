@@ -19,3 +19,11 @@ p menu.fetch(:chips)
 p menu.fetch(:burger, "Not found") # 3.99
 p menu.fetch(:chips, "Not found") # 0.5
 p menu.fetch(:salad, "Not found") # "Not Found"
+
+# emulating the defaut behaviour:
+p menu.fetch(:salad, nil) # nil
+
+# equally we can set out own default values, which is totally
+# more flexible when you think about it, for example, we can
+# set a 'default price' on our menu..
+p menu.fetch(:salad, 9.99)
