@@ -27,7 +27,7 @@ myhash2 = {}
 myhash2[:a] = 1
 myhash2[:b] = 2
 myhash2[:c] = 3
-myhash2[:a] = 1
+myhash2[:a] = 1 # just overwrites the value of :a by design!
 
 p myhash2 # {:a=>1, :b=>2, :c=>3}
 # So you see even if we TRY to duplicate keys, ruby won't let us!
