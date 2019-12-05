@@ -16,3 +16,4 @@ hash = {
 }
 
 p value_count(hash, 5)
+# pass :)
