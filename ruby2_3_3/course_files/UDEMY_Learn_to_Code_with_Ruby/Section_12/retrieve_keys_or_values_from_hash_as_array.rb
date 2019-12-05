@@ -31,5 +31,5 @@ myhash2[:a] = 1 # just overwrites the value of :a by design!
 
 p myhash2 # {:a=>1, :b=>2, :c=>3}
 # So you see even if we TRY to duplicate keys, ruby won't let us!
-# henece there is no need to "unique-ify" the keys. Only the grab_values
+# hence there is no need to "unique-ify" the keys. Only the grab_values
 # can appear duplicated.
