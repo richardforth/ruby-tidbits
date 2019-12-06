@@ -21,6 +21,12 @@ p kitchen
 
 #=--------- custom merge -------------------------=#
 def custom_merge(hash1, hash2)
-  hash1.dup
-
+  new_hash = hash1.dup
+  hash2.each do |k, v|
+    new_hash[k] = v
+  end
+  new_hash
 end
+
+hash3 = custom_merge(kitchen,market)
+p hash3
