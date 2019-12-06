@@ -29,3 +29,7 @@ puts statements
   puts index
   puts "Let's move to the next loop"
 end
+
+# extra goodness!
+# - Blocks are anonymous functions!
+# Further reading: https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/
