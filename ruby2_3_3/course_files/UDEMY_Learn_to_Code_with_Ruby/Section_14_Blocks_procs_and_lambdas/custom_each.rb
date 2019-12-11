@@ -21,4 +21,4 @@ puts
 
 x = [1,2,3]
 # custom_each #  wrong number of arguments (given 0, expected 1) (ArgumentError)
-custom_each(x)
+# custom_each(x) # no block given (yield) (LocalJumpError)
