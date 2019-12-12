@@ -16,4 +16,4 @@ puts
 p today.wday
 p today.yday
 #p today.yweek # ok got a little excited but sadly nosuchmethod
-p today.yday/7
+p today.yday/7 # week 49
