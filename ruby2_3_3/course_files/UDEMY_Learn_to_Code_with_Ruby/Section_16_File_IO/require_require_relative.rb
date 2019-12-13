@@ -13,6 +13,8 @@
 # - executing code immediately (use load for that)
 puts "This is the beginning"
 # require "./end.rb" # doesnt work on windows in atom, works fine in CLI
+# => defaults to the ruby installation directory (eg "require 'time'").
+
 require_relative "./end.rb" # is ignored the second time (same file  is
 #                             already loaded) - works in atom, "and" CLI
 # => Note that require_relative does not require ./ as its the default to
