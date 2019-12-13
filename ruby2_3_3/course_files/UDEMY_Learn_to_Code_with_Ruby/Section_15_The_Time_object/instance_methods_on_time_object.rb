@@ -17,3 +17,8 @@ p today.wday
 p today.yday
 #p today.yweek # ok got a little excited but sadly nosuchmethod
 p today.yday/7 # week 49
+
+##==-- update to get effective 'yweek' --==##
+p today.strftime("%W") # #49
+# ironically its less code to do it the "hard" way!
+p today.yday/7
