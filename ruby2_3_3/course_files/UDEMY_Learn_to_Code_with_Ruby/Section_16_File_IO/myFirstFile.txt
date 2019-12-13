@@ -1,0 +1,4 @@
+I am creating this from ruby
+No line break here!Pretty cool!
+This will be appended to the end
+And one more line with file.printAnd another with file.write
