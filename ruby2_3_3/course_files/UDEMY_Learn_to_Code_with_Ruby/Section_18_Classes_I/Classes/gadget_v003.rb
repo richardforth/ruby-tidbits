@@ -1,22 +1,17 @@
 class Gadget
-
-
-
+  def initialize
+    @username = "user #{rand(1..100)}"
+    @password = "topsecret"
+    @production_number = "#{("a".."z").to_a.sample}-#{rand(1..999)}"
+  end
 end
 
-shiny = Gadget.new
-flashy = Gadget.new
-
-glossy = shiny
-
-puts shiny
-puts glossy
-puts flashy
+phone = Gadget.new
+p phone
+p phone.instance_variables
 puts
 
-p shiny
-p flashy
+laptop = Gadget.new
+p laptop
+p laptop.instance_variables
 puts
-
-p glossy.object_id == shiny.object_id
-p glossy == shiny
