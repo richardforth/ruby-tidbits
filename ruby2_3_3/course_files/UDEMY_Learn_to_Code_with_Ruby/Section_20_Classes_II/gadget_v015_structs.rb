@@ -1,7 +1,7 @@
 class Gadget
 
   attr_accessor :username
-  attr_reader :production_number, :apps
+  attr_reader :production_number
 
   def initialize(username, password)
     @username = username
@@ -21,17 +21,7 @@ class Gadget
     end
   end
 
-  def reset(username, password)
-    self.username = username
-    self.password = password
-    self.apps = []
-  end
-
-  
-
   private
-
-  attr_writer :apps
 
   def validate_password(new_password)
     new_password.is_a?(String) && new_password.length >=6 && new_password =~ /\d/
