@@ -1,7 +1,7 @@
 class Gadget
 
   attr_accessor :username
-  attr_reader :production_number, :password
+  attr_reader :production_number
 
   def initialize(username, password)
     @username = username
@@ -26,13 +26,7 @@ class Gadget
   end
 end
 
-phone = Gadget.new("User", "Password1")
-p phone.password
-phone.password=("NewPassword")
-p phone.password
-phone.password=("NewPassword123")
-p phone.password
 # Notes:
-# Note that the password attr_reader woudl need to be removed in production
-# code, this is jusy to demonstrate changing the password was successful.
-# see v011
+# here we add parameters to the initialise method
+# this allows us to set variables on Object creation, rather than changing
+# defaults later on.
