@@ -1,0 +1,57 @@
+What is inheritance?
+
+- inheritance is a way for a class to obtain all methods from another class.
+- inheritance avoids duplicate code across multiple classes (DRY principle)
+
+                    (DRY = Don't Repeat Yourself)
+
+- the class we inherit from is called the superclass or the parent class.
+- the class that inherits is called the subclass or child class.
+* Ruby only supports single inheritance. A class can only inherit from one other
+class. That said, by chaining inheritance in single file, a class will inherit
+from all the superclasses in the chain. (The bit ruby doesnt support is a fork
+where two superclasses are being inherited from at the same level in the
+hierarchy).
+
+For example:
+
+SUPPORTED
+
+Object >
+    BasicObject >
+               Array
+
+NOT SUPPORTED
+
+Object            BasicObject
+   \---- Array ----/
+
+- The subclass is a type of the superclass. This is called an "is-a"
+relationship.
+- The relationship does not apply in reverse.
+- Thus the subclass can be considered a subset of the superclass.
+
+EXAMPLE
+- A Car is a Vehicle but a Vehicle is not guaranteed to be a Car.
+ (a Vehicle could also be a boat, a bus, train or a lorry, for example)
+
+ - Subclasses are followed by a < symbol and the name of the superclass.
+
+ EXAMPLE:
+
+ class Car < Vehicle
+ end
+
+ class Boat < Vehicle
+ end
+
+ class Lorry < Vehicle
+ end
+
+ class Bus < Vehicle
+ end
+
+(here we created fictional classes as subclasses of the Vehicle class)
+
+Car, Boat, Lorry. and Bus will all inherit the same methods, instance variables
+and private / protected methods from the Vehicle class
